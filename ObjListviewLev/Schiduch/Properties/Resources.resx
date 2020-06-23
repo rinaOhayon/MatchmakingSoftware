@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="construction-firm-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\construction-firm-icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClientTableHeader" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ShadchanStartDatesHeader" xml:space="preserve">
+    <value>&lt;div class="col-sm-12" style="float:right"&gt;
+  &lt;table  class="table"&gt;
+    &lt;thead&gt;
+      &lt;tr&gt;
+        &lt;th class="text-right"&gt;לקוח&lt;/th&gt;
+        &lt;th class="text-right"&gt;שדכן&lt;/th&gt;
+        &lt;th class="text-right"&gt;בתאריך&lt;/th&gt;
+         &lt;/thead&gt;
+    &lt;tbody&gt;</value>
+  </data>
+  <data name="ClientSumTableHeaders" xml:space="preserve">
+    <value>&lt;hr&gt;&lt;u&gt;&lt;h2&gt;סך הכל&lt;/h2&gt;&lt;/u&gt;&lt;table class='table table-bordered'&gt;&lt;thead&gt;&lt;tr&gt;
+        &lt;th style='text-align:right'&gt;שדכן&lt;/th&gt;
+        &lt;th style='text-align:right'&gt;פתח כרטיס לקוח&lt;/th&gt;
+        &lt;th style='text-align:right'&gt;הצעות&lt;/th&gt;
+        &lt;th style='text-align:right'&gt;פגישות&lt;/th&gt;
+        &lt;th style='text-align:right'&gt;בירורים&lt;/th&gt;
+        &lt;th style='text-align:right'&gt;אחר&lt;/th&gt;        
+      &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;</value>
+  </data>
+  <data name="ReportHeader" xml:space="preserve">
+    <value>&lt;!DOCTYPE html&gt;
+&lt;html lang="he"&gt;
+&lt;head&gt;
+  &lt;title&gt;דו"ח&lt;/title&gt;
+  &lt;meta charset="utf-8"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+&lt;meta http-equiv="content-type" content="text/html;charset=iso-8859-8-i"&gt;
+  &lt;link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"&gt;
+  &lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"&gt;&lt;/script&gt;
+  &lt;script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body dir=rtl&gt;
+
+&lt;div class="container-fluid"&gt;
+  &lt;div class="jumbotron"&gt;</value>
+  </data>
+  <data name="לוגו שנתבשר" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\לוגו שנתבשר.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShadchanStartDatesFooter" xml:space="preserve">
+    <value>&lt;/tbody&gt;
+    &lt;/table&gt;
+    &lt;/div&gt; &lt;div class="col-sm-12" style="float:right"&gt;</value>
+  </data>
+  <data name="ReportEnd" xml:space="preserve">
+    <value>&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="AnotherReportHeader" xml:space="preserve">
+    <value>&lt;!DOCTYPE html&gt;
+&lt;html lang="he"&gt;
+&lt;head&gt;
+  &lt;title&gt;דו"ח&lt;/title&gt;
+  &lt;meta charset="utf-8"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+&lt;meta http-equiv="content-type" content="text/html;charset=iso-8859-8-i"&gt;
+  &lt;link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"&gt;
+  &lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"&gt;&lt;/script&gt;
+  &lt;script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"&gt;&lt;/script&gt;
+&lt;/head&gt;</value>
+  </data>
+  <data name="ChatWeb" xml:space="preserve">
+    <value>&lt;!DOCTYPE html&gt;
+&lt;html lang="he"&gt;
+&lt;head&gt;
+
+&lt;style&gt;
+body {background-image:url('file:///bg.jpg'); padding-top:30px; }
+.round { background-color:#5ba6e7; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; }
+.time { 
+    font-size: 8px;
+    color: gray;
+    margin: 0px;
+    text-align: left;
+    padding-top: 6px;}
+.time2 { float:left; padding-left:0px; color:#000; font-weight:600;}
+
+.personName { float:right;position:absolute;left:45%; padding-left:0px; color:#5586e5; font-weight:600;}
+.personSay {   padding-left:0px; color:#000; font-weight:600;}
+
+.personName2 { float: right;  padding-left:0px; color:#5586e5; font-weight:600;}
+.personSay2 {  float: left; padding-left:0px; color:#000; font-weight:600;}
+
+ul { list-style-type:none; padding:0px; margin:0px;  }
+ul li {  display:block; padding-left: 0px; }
+
+.bubble{
+		background-color: #F2F2F2;
+		border-radius: 5px;
+		box-shadow: 0 0 6px #B2B2B2;
+		display: inline-block;
+		padding: 10px 18px;
+		position: relative;
+		vertical-align: top;
+		margin: 10px 10px;
+		border-color: #cdecb0;
+		width: auto;
+		
+	}
+
+.bubble::before {
+    background-color: #F2F2F2;
+    float:right;
+    content: "\00a0";
+    display: block;
+    height: 19px;
+    /*position: absolute;*/
+	  position:relative;
+    left: 26px;
+	  
+    transform:             rotate( 205deg ) skew( -35deg );
+        -moz-transform:    rotate( 205deg ) skew( -35deg );
+        -ms-transform:     rotate( 205deg ) skew( -35deg );
+        -o-transform:      rotate( 205deg ) skew( -35deg );
+        -webkit-transform: rotate( 205deg ) skew( -35deg );
+    width:  20px;
+    box-shadow: -2px 2px 2px 0 rgba( 178, 178, 178, .4 ); 
+	}
+
+
+ 
+
+.lileft{
+position: relative;
+    width: 100%;
+    float: left;
+    }
+    
+.bubble2::before {
+    background-color: #dfeecf;
+    content: "\00a0";
+    display: block;
+    height: 16px;
+    position: absolute;
+    top: 11px;
+    transform:             rotate( 29deg ) skew( -35deg );
+        -moz-transform:    rotate( 29deg ) skew( -35deg );
+        -ms-transform:     rotate( 29deg ) skew( -35deg );
+        -o-transform:      rotate( 29deg ) skew( -35deg );
+        -webkit-transform: rotate( 29deg ) skew( -35deg );
+    width:  20px;
+    box-shadow: -2px 2px 2px 0 rgba( 178, 178, 178, .4 );
+    left: -9px; 
+	
+	}
+
+
+.bubble2{
+		float: left;
+		width:auto;
+		background-color: #dfeecf;
+		border-radius: 5px;
+		box-shadow: 0 0 6px #B2B2B2;
+		display: inline-block;
+		padding: 10px 18px;
+		position: relative;
+		vertical-align: top;
+		margin: 10px 10px;
+		border-color: #cdecb0;
+		
+	}
+
+&lt;/style&gt;
+&lt;meta charset="utf-8" /&gt;
+ &lt;/head&gt;
+
+&lt;body dir="rtl"&gt;
+   
+  &lt;div&gt;
+    &lt;ul id="container"&gt;
+      
+    &lt;/ul&gt;
+  &lt;/div&gt;
+        
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="ClientSumAction" xml:space="preserve">
+    <value>&lt;u&gt;&lt;h3&gt;פירוט&lt;/h3&gt;&lt;/u&gt;&lt;table class='table table-bordered'&gt;&lt;thead&gt;&lt;tr&gt;
+                &lt;th rowspan='2' style='text-align:center;vertical-align:top'&gt;שדכן&lt;/th&gt;&lt;th rowspan='2' style='text-align:center;vertical-align:top;width:5%'&gt;פתח כרטיס&lt;/th&gt;
+                &lt;th colspan='3' style='text-align:center'&gt;הצעות&lt;/th&gt;
+                &lt;th colspan='3' style='text-align:center'&gt;פגישות&lt;/th&gt;
+                &lt;th colspan='3' style='text-align:center'&gt;בירורים&lt;/th&gt;
+                &lt;th colspan='3' style='text-align:center'&gt;אחר&lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;בטיפול&lt;/td&gt;
+                &lt;td&gt;הושלם בהצלחה&lt;/td&gt;
+                &lt;td&gt;לא רלוונטי&lt;/td&gt;
+                &lt;td&gt;בטיפול&lt;/td&gt;
+                &lt;td&gt;הושלם בהצלחה&lt;/td&gt;
+                &lt;td&gt;לא רלוונטי&lt;/td&gt;
+                &lt;td&gt;בטיפול&lt;/td&gt;
+                &lt;td&gt;הושלם בהצלחה&lt;/td&gt;
+                &lt;td&gt;לא רלוונטי&lt;/td&gt;
+                &lt;td&gt;בטיפול&lt;/td&gt;
+                &lt;td&gt;הושלם בהצלחה&lt;/td&gt;
+                &lt;td&gt;לא רלוונטי&lt;/td&gt;
+            &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;</value>
+  </data>
+  <data name="לוגו_לב_אחד_כאייקון" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\לוגו לב אחד כאייקון.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
