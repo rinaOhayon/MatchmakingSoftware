@@ -128,14 +128,7 @@ namespace Schiduch
                 MessageBox.Show("אירעה שגיאה בהסרת השדכן מטפל");
             }
         }
-        public static string SetPassword(string pass)
-        {
-            string firstPass = "ZiNJOGclSCl0Xg==";
-            string endPass = "XkBASiFhYX56enp6ejQ1LyorKQ==";
-            string passWord = Encoding.UTF8.GetString(Convert.FromBase64String(firstPass));
-            passWord += pass + Encoding.UTF8.GetString(Convert.FromBase64String(endPass));
-            return passWord;
-        }
+       
         public static string ReturnPassword(string FullPass)
         {
             return FullPass.Split('^')[1];
